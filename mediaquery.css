@@ -1,0 +1,289 @@
+/* ==============================
+   MEDIA QUERIES — bas yeh file
+   apni original style.css ke
+   BILKUL END mein paste karein
+============================== */
+
+@media (max-width: 1024px) {
+
+  .upper {
+    height: auto;
+    padding: 30px;
+  }
+
+  .upper .pack {
+    width: 350px;
+    height: auto;
+    margin-top: -100px;
+    margin-left: 280px;
+  }
+
+  .middle {
+    height: auto;
+  }
+
+  .text .heading {
+    margin-top: -200px;
+    padding-left: 350px;
+  }
+
+  .text .para {
+    padding-left: 350px;
+  }
+
+  .button-01 {
+    margin-left: 350px;
+  }
+
+  .card-heading {
+    margin-top: 60px;
+  }
+
+  .card-section {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .testimonial-container {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .colourfull-box h2,
+  .colourfull-box p,
+  .colourfull-box h1 {
+    margin-left: 80px;
+  }
+
+  .colourfull-box div button {
+    margin-left: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .main {
+    padding: 15px;
+    min-height: auto;
+  }
+
+ 
+  .navbar {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 12px 15px;
+    gap: 10px;
+  }
+
+  .navbar ul {
+    gap: 12px;
+    font-size: 15px;
+    flex-wrap: wrap;
+    order: 3;
+    width: 100%;
+  }
+  
+  .bottomBar {
+    flex-direction: column;
+    height: auto;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+
+  .bottomBar div .search {
+    padding-right: 0;
+  }
+
+
+  .upper {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+  }
+
+  .upper .pack {
+    position: static;     
+    margin-top: 20px;
+    margin-left: 0;
+    width: 100%;
+    max-width: 260px;
+    height: auto;
+    align-self: center;
+  }
+
+  .middle {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    padding: 20px;
+  }
+
+  .middle div .acne {
+    width: 100%;
+    padding: 15px 0;
+  }
+
+  .text .heading {
+    margin-top: 15px;    
+  }   
+
+  .text .para {
+    padding-left: 0;        
+    font-size: 16px;
+  }
+
+  .button-01 {
+    margin-left: 0;         
+    width: 200px;
+    font-size: 17px;
+  }
+
+ 
+  .card-heading {
+    margin-top: 30px;
+  }
+
+ 
+  .card-section {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    gap: 15px;
+  }
+
+  .card {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+ 
+  .heart {
+    margin-top: 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  
+  .testimonial-container {
+    width: 100%;
+    margin-left: 0;
+    padding: 25px 15px;
+  }
+
+  .card01 {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+ 
+  .colourfull-box {
+    height: auto;
+    padding: 35px 20px;
+    text-align: center;
+  }
+
+  .colourfull-box h2 {
+    margin-left: 0;
+    font-size: 22px;
+  }
+
+  .colourfull-box p {
+    margin-left: 0;
+    font-size: 16px;
+  }
+
+  .colourfull-box h1 {
+    margin-left: 0;
+    font-size: 22px;
+  }
+
+  .colourfull-box div button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+  .bottom {
+    height: auto;
+    flex-direction: column;
+    padding: 25px 15px;
+    gap: 20px;
+  }
+
+  .text h3 {
+    margin-top: 0;         
+  }
+
+  .text div span {
+    width: 220px;
+    font-size: 17px;
+  }
+
+  .bottom div img {
+    width: 100%;
+    height: auto;
+    max-width: 340px;
+  }
+  }
+  @media (max-width: 768px) {
+    .icons {
+      display: none;
+  }
+  .bottomBar {
+    display: none;
+  }
+  }
+
+@media (max-width: 480px) {
+  .icons {
+    display: none;
+  }
+ .bottomBar {
+  display: none;
+ }
+  .navbar ul {
+    font-size: 13px;
+    gap: 8px;
+  }
+
+  .upper .pack {
+    max-width: 220px;
+  }
+
+  .card {
+    width: 95%;
+  }
+
+  .product img {
+    width: 150px;
+  }
+
+  .add {
+    width: 100%;
+    font-size: 13px;
+  }
+
+  .card01 {
+    width: 95%;
+  }
+
+  .colourfull-box h1 {
+    font-size: 18px;
+  }
+
+  .colourfull-box h2 {
+    font-size: 18px;
+  }
+}
+  
+  
+  

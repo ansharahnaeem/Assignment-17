@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Miranda+Sans:ital,wght@0,400..700;1,400..700&display=swap");
+
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     font-family: "Raleway", sans-serif;
+     scroll-behavior: smooth;
+     
+}
+html,
+body{
+    background-color: black;
+}
+.wrapper {
+    max-width: 1300px;
+    
+}
+.main {
+    
+    max-width: 1100px;
+    min-height: 3800px;  
+    margin: 0px auto;
+    padding: 30px;
+    background-color: white;
+    
+}
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+   position: relative;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+   
+    align-items: center;
+    font-weight: 100 lighter;
+    
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+}
+.navbar ul li {
+  cursor: pointer;
+  padding-bottom: 4px;
+}
+.navbar ul li:hover {
+  border-bottom: 2px solid black;
+}
+.icons {
+    display: flex;
+    justify-content: flex-end;
+   gap: 20px;
+}
+.bottomBar {
+  width: 100%;
+  height: 60px;
+  margin: 10px 0px;
+  padding: 10px 20px ;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.bottomBar div .search {
+  padding-right: 80px;
+}
+.bottomBar span {
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-weight: 200;
+  background-color: #efefef;
+}
+.upper {
+  width: 95%;
+  height: 450px;
+  margin: 0 30px;
+  padding: 50px;
+  background-color: #fff6f89d;
+  border-radius: 20px;
+  
+}
+ .upper-content .sent-icon {
+    font-size: 16px;
+    font-weight: lighter;
+    margin-left: 10px;
+    position: relative;
+    top: 7px;
+}
+.upper-content .end {
+  display: block;
+  margin-top: 20px;
+  margin-left: 150px;
+  font-weight: 500;
+  
+}
+p {
+  margin-top: 10px;
+}
+button {
+  margin-top: 20px;
+  width: 180px;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.upper .pack {
+  position: relative;
+  margin-top: -150px;
+  margin-left: 430px; 
+  width: 500px;
+ 
+  height: 340px;
+}
+.menu {
+  display: block;
+  width: 35px;
+  
+}
+.middle {
+  width: 95%;
+  height: 450px;
+  margin: 60px 30px;
+  padding: 30px;
+  background-color: #F0F0F0;
+  flex-direction: column;
+ 
+  
+  
+}
+.middle div .acne {
+  padding: 50px 10px;
+}
+.text .heading {
+  margin-top: -320px;
+  padding-left: 550px;
+}
+.text .para {
+ 
+  padding-left: 550px;
+  font-size: 20px;
+}
+.button-01 {
+  margin-top: 20px;
+  width: 240px;
+  height: 50px;
+  line-height: 50px;
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 550px;
+}
+.card-heading {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  .view {
+    border-bottom: 2px solid black;
+  }
+ 
+  
+  .card-section {
+  width: 1100px;
+  height: 900px;
+  margin: 30px -90px auto;
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  
+  
+  flex-wrap: wrap;
+  
+
+}
+ .card {
+  width: 30%;
+  height: 430px;
+  background-color: rgba(128, 128, 128, 0.219);
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: -300px; 
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  
+  
+ 
+ }
+ .seller h4 {
+  padding: 5px;
+ }
+ .heart {
+  margin-top: -40px;
+  padding-left: 300px;
+ 
+ }
+.product {
+  text-align: center;
+  margin: 20px 0;
+  border-bottom: 1px solid white;
+
+}
+.product img {
+  width: 200px;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+p {
+  font-size: 15px;
+
+}
+.price .old {
+      color: gray;
+      margin-right: 5px;
+}
+.add {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.testimonial-container {
+  width: 1100px ;
+ 
+  
+  padding: 40px 50px;
+  margin-top: 30px;
+  margin-left: -90px;
+  background-color: #F0F0F0;
+ 
+ 
+ 
+}
+.testimonial-container h2 {
+  font-size: 30px;
+margin-bottom: 30px;
+ 
+}
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; 
+   gap: 20px;
+  
+  
+}
+.card01 {
+  width: 280px;
+  height: 260px;
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+   border-radius: 15px;
+  text-align: left;
+} 
+.card01 img {
+  width: 100px;
+  height: 90px;
+ margin-left: 50px;
+ margin-top: 20px;
+  border-radius: 50%;
+}
+
+.card h3 {
+  font-size: 16px;
+ 
+}
+.card p {
+  font-size: 15px;
+  color: #555;
+ 
+}
+.colourfull-box {
+  width: 100%;
+  height: 400px;
+  background-color: aquamarine;
+  padding: 50px; 
+  }
+  .colourfull-box h2 {
+    margin-left: 200px;
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  .colourfull-box p {
+      margin-left: 200px;
+      font-size: 18px;
+       margin-top: 30px;
+  }
+  .colourfull-box h1 {
+     margin-left: 200px;
+     font-size: 32px;
+      margin-top: 30px;
+  }
+  .colourfull-box div button {
+    margin-left: 300px;
+    margin-top: 30px;
+   
+    
+}
+.bottom {
+  width: 100%;
+  height: 400px;
+  background-color: #FFFFFF;
+  margin-top: 30px;
+  
+  
+}  
+.text {
+ margin-left: 30px;
+}
+.text h3 {
+  margin-top: -100px;
+  font-size: 22px;
+ 
+  
+}
+.text h6 {
+  margin-top: 20px;
+  font-size: 16px;
+}
+.text div span{
+   margin-top: 50px; 
+   width: 300px;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.bottom div img {
+  width: 400px;
+  height: 400px;
+}
